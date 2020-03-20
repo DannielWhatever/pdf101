@@ -1,0 +1,29 @@
+{
+  "name": "pdf101",
+  "version": "0.0.1",
+  "description": "simply a wrapper to generate pdf in one line.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint ."
+  },
+  "repository": "github.com:dannielwhatever/pdf101",
+  "keywords": [
+    "pdf"
+  ],
+  "author": "dannielwhatever",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.7.3",
+    "phantom-html-to-pdf": "^0.6.0",
+    "phantomjs-prebuilt": "^2.1.16"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
+  }
+}
