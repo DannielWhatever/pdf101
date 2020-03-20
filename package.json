@@ -7,7 +7,7 @@
     "test": "jest --coverage",
     "lint": "eslint ."
   },
-  "repository": "github.com:dannielwhatever/pdf101",
+  "repository": "github:dannielwhatever/pdf101",
   "keywords": [
     "pdf"
   ],
